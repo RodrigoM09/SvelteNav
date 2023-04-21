@@ -9,3 +9,8 @@
 	--tertiary-color: rgb(203, 213, 226);
 }
 
+@layer base {
+    * {
+        font-family: 'Shree Devanagari 714', sans-serif;
+    }
+}
