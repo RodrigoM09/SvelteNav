@@ -1,9 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
 	--primary-color: rgb(87, 142, 62);
-    --secondary-color: rgb(32, 79, 114);
-    --tertiary-color: rgb(203, 213, 226);
+	--secondary-color: rgb(32, 79, 114);
+	--tertiary-color: rgb(203, 213, 226);
 }
+
