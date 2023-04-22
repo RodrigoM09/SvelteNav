@@ -26,7 +26,5 @@
 <slot />
 
 <style>
-  :global(body){
-  font-family: "Shree Devanagari", sans-serif;
-  }
+
 </style>

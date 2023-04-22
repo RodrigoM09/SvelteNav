@@ -1,7 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @font-face {font-family: "Shree Devanagari 714"; src: url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.eot"); src: url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.woff") format("woff"), url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.svg#Shree Devanagari 714") format("svg"); } */
 
 :root {
 	--primary-color: rgb(87, 142, 62);
@@ -9,8 +9,9 @@
 	--tertiary-color: rgb(203, 213, 226);
 }
 
-@layer base {
-    * {
-        font-family: 'Shree Devanagari 714', sans-serif;
-    }
+@font-face {
+	font-family: 'Shree';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Shree Devanagari 714')
 }
