@@ -3,8 +3,8 @@
 	import Component from '$lib/components/Component.svelte';
 	import {Button} from 'flowbite-svelte';
 </script>
-<div class="page-wrapper flex-col">
-	<div class="hero flex w-fullscreen">
+<div class="page-wrapper flex-col w-screen">
+	<div class="hero flex w-full">
 		<!-- left side of desktop view -->
 		<div class="grid h-100 gap-y-5 sm:grid sm:grid-rows-1 sm:justify-items-start sm:mt-3 sm:p-5">
 				<div id="yourStory" class="[&>img]:place-self-end flex sm:flex w-100 flex-col m-2 sm:gap-5">
@@ -29,7 +29,7 @@
 						Remeber that by this time, the user is curious.
 					</p>
 				</div>
-				<div class="text-center bg-white  rounded-3xl p-3 m-3 sm:w-52 md:h-24 md:w-56 lg:h-30 lg:w-68">
+				<div class="text-center bg-white  rounded-3xl p-3 m-3 sm:w-52 h-30 w-68">
 					<h3 class=" md:text-xl lg:text-2xl mb-3 font-bold">Verified <span class="text-buttonColor">Company</span></h3>
 					<p>
 						Write a few lines about each one.
@@ -39,11 +39,11 @@
 				</div>
 			</div>
 		</div>
-		<div class="static hidden sm:block m-10 w-screen ">
-			<img class="absolute right-72 rounded-xl z-10" src="https://picsum.photos/350/300" alt="">
-			<div class=" rounded-xl sm:block !bg-buttonColor h-40 w-36"></div>
-			<div class="absolute top-80 right-64 rounded-xl sm:block !bg-buttonColor h-40 w-36"></div>
-			<div class="absolute top-24 right-72 rounded-xl sm:block !bg-buttonColor h-40 w-36"></div>
+		<div class="hidden sm:block m-10 w-full">
+			<img class="absolute lg:right-36 xl:right-72 rounded-xl z-10" src="https://picsum.photos/350/300" alt="">
+			<div class="absolute lg:right-32 lg:top-24 lg:h-32 lg:w-28 xl:mt-44 xl:right-64 xl:h-40 xl:w-36 rounded-xl sm:block !bg-buttonColor "></div>
+			<div class="absolute lg:right-80 lg:top-52 lg:h-32 lg:w-28 xl:mr-56 xl:top-80 xl:h-40 xl:w-36 rounded-xl sm:block !bg-buttonColor"></div>
+			<div class="absolute lg:right-36 lg:top-56 lg:h-28 lg:w-24 xl:mr-24 xl:top-24 xl:h-32 xl:w-40 rounded-xl sm:block !bg-buttonColor "></div>
 		</div>
 	</div>
 	<div class="relative flex py-5 items-center font-bold">
