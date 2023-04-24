@@ -41,9 +41,9 @@
 		</div>
 		<div class="hidden sm:block m-10 w-full">
 			<img class="absolute lg:right-36 xl:right-72 rounded-xl z-10" src="https://picsum.photos/350/300" alt="">
-			<div class="absolute lg:right-32 lg:top-24 lg:h-32 lg:w-28 xl:mt-44 xl:right-64 xl:h-40 xl:w-36 rounded-xl sm:block !bg-buttonColor "></div>
+			<div class="absolute lg:right-32 lg:top-24 lg:h-32 lg:w-28 xl:mt-44 xl:right-64 xl:h-40 xl:w-36 rounded-xl sm:block !bg-buttonColor"></div>
 			<div class="absolute lg:right-80 lg:top-52 lg:h-32 lg:w-28 xl:mr-56 xl:top-80 xl:h-40 xl:w-36 rounded-xl sm:block !bg-buttonColor"></div>
-			<div class="absolute lg:right-36 lg:top-56 lg:h-28 lg:w-24 xl:mr-24 xl:top-24 xl:h-32 xl:w-40 rounded-xl sm:block !bg-buttonColor "></div>
+			<div class="absolute lg:right-36 lg:top-56 lg:h-28 lg:w-24 xl:mr-24 xl:top-24 xl:h-32 xl:w-40 rounded-xl sm:block !bg-buttonColor"></div>
 		</div>
 	</div>
 	<div class="relative flex py-5 items-center font-bold">
@@ -52,7 +52,38 @@
 		<div class="flex-grow border-t border-black"></div>
 	</div>
 	<div>
+		<div class="flex-col m-2">
+			<div class="mb-4">
+				<div class="flex justify-between">
+					<h3 class="font-extrabold w-52"><span class="text-primaryColor">Go Green.</span> Reduce The Amount Spent on Office Supplies</h3>
+					<img src="https://picsum.photos/25/25" alt="">
+				</div>
+				<p class=" font-light text-xs">
+					No more paper waste, no more filing cabinets. With DURRAFORMS, you will spend less money on paper, printer ink, and ugly filing cabinets.
+				</p>
+				<a class="underline text-purple-700 text-sm" href="/">Click here to view our services</a>
+			</div>
+			<div class="mb-4">
+				<h3 class="font-extrabold">Customer Data Stays Secure</h3>
+				<p class="text-xs">
+					Your customers will feel safer knowing exactly where their sensitive information is being held.
+				</p>
+				<a class="underline text-purple-700 text-sm" href="/">Click here to see how it works</a>
+			</div>
+			<div class="mb-4 flex-col">
+				<h3 class="font-extrabold">We're affordable</h3>
+				<p>
+					Choose between a monthly or yearly subscription without worrying about the fine print.
+				</p>
+				<a class="underline text-purple-700 text-sm" href="/">Click here to view our pricing</a>
+			</div>
+		</div>
+	<div>
 
+		</div>
+		<div>
+
+		</div>
 	</div>
 
 </div>
