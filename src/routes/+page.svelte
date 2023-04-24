@@ -91,7 +91,7 @@
 			<span class="font-bold flex-shrink mx-4 text-black">Don't Just Take Our Word For It</span>
 			<div class="flex-grow border-t border-black"></div>
 		</div>
-		<div class="flex flex-col gap-5 items-center text-center">
+		<div class="flex flex-col gap-5 items-center text-center mb-20">
 			<h3 class="font-bold ">Our Customer's Feedback</h3>
 			<p class="text-xs">Here our some of our most recent reviews from our clients who have been using Durraforms!</p>
 			<img class="rounded-xl" src="https://picsum.photos/250/250" alt="">
