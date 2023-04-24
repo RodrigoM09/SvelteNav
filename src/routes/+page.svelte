@@ -3,7 +3,7 @@
 	import Component from '$lib/components/Component.svelte';
 	import {Button} from 'flowbite-svelte';
 </script>
-<div class="page-wrapper flex-col w-screen">
+<div class="page-wrapper flex flex-col w-screen">
 	<div class="hero flex w-full">
 		<!-- left side of desktop view -->
 		<div class="grid h-100 gap-y-5 sm:grid sm:grid-rows-1 sm:justify-items-start sm:mt-3 sm:p-5">
@@ -52,40 +52,57 @@
 		<div class="flex-grow border-t border-black"></div>
 	</div>
 	<div>
-		<div class="flex-col m-2">
+		<div class="flex flex-col m-2">
 			<div class="mb-4">
 				<div class="flex justify-between">
 					<h3 class="font-extrabold w-52"><span class="text-primaryColor">Go Green.</span> Reduce The Amount Spent on Office Supplies</h3>
-					<img src="https://picsum.photos/25/25" alt="">
+					<img class="rounded-xl mr-5" src="https://picsum.photos/50/50" alt="">
 				</div>
-				<p class=" font-light text-xs">
+				<p class="font-light text-xs">
 					No more paper waste, no more filing cabinets. With DURRAFORMS, you will spend less money on paper, printer ink, and ugly filing cabinets.
 				</p>
-				<a class="underline text-purple-700 text-sm" href="/">Click here to view our services</a>
+				<a class="underline text-green-600 text-sm" href="/">Click here to view our services</a>
 			</div>
-			<div class="mb-4">
-				<h3 class="font-extrabold">Customer Data Stays Secure</h3>
+
+			<div class="mb-8">
+				<div class="flex justify-between">
+					<h3 class="font-extrabold">Customer Data Stays <span>Secure</span></h3>
+					<img class="rounded-xl mr-5" src="https://picsum.photos/50/50" alt="">
+				</div>
 				<p class="text-xs">
 					Your customers will feel safer knowing exactly where their sensitive information is being held.
 				</p>
-				<a class="underline text-purple-700 text-sm" href="/">Click here to see how it works</a>
+				<a class="underline text-green-600 text-sm" href="/">Click here to see how it works</a>
 			</div>
-			<div class="mb-4 flex-col">
-				<h3 class="font-extrabold">We're affordable</h3>
-				<p>
+
+			<div class="mb-8">
+				<div class="flex justify-between">
+					<h3 class="font-extrabold">We're affordable</h3>
+					<img class="rounded-xl mr-5" src="https://picsum.photos/50/50" alt="">
+				</div>
+				<p class="text-xs">
 					Choose between a monthly or yearly subscription without worrying about the fine print.
 				</p>
-				<a class="underline text-purple-700 text-sm" href="/">Click here to view our pricing</a>
+				<a class="underline text-green-600 text-sm" href="/">Click here to view our pricing</a>
 			</div>
 		</div>
-	<div>
-
+		<div class="relative flex py-5 items-center font-bold">
+			<div class="flex-grow border-t border-black"></div>
+			<span class="font-bold flex-shrink mx-4 text-black">Don't Just Take Our Word For It</span>
+			<div class="flex-grow border-t border-black"></div>
 		</div>
-		<div>
-
+		<div class="flex flex-col gap-5 items-center text-center">
+			<h3 class="font-bold ">Our Customer's Feedback</h3>
+			<p class="text-xs">Here our some of our most recent reviews from our clients who have been using Durraforms!</p>
+			<img class="rounded-xl" src="https://picsum.photos/250/250" alt="">
+			<h2 class="font-semibold">Ink Couture</h2>
+			<div class="flex flex-col">
+				<h6 class="text-xs">I can honestly say that there is not one company that</h6>
+				<h6 class="text-xs">I've ever worked with that has better service than<h6>
+				<h6 class="text-xs font-bold">Durraforms!*</h6>
+			</div>
 		</div>
 	</div>
-
 </div>
 <style>
 
