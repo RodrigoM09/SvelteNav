@@ -22,6 +22,7 @@
 						A paragraph describing a feature will be enough.
 					</p>
 				</div>
+
 				<div class="text-center bg-white h-30 w-68 rounded-3xl p-3 m-3 sm:w-52">
 					<h3 class="text-2xl mb-3 font-bold">Customer <span class="text-buttonColor">Engagement</span></h3>
 					<p>
@@ -29,6 +30,7 @@
 						Remeber that by this time, the user is curious.
 					</p>
 				</div>
+
 				<div class="text-center bg-white  rounded-3xl p-3 m-3 sm:w-52 h-30 w-68">
 					<h3 class=" md:text-xl lg:text-2xl mb-3 font-bold">Verified <span class="text-buttonColor">Company</span></h3>
 					<p>
@@ -93,8 +95,8 @@
 		</div>
 		<div class="flex flex-col gap-5 items-center text-center mb-20">
 			<h3 class="font-bold ">Our Customer's Feedback</h3>
-			<p class="text-xs">Here our some of our most recent reviews from our clients who have been using Durraforms!</p>
-			<img class="rounded-xl" src="https://picsum.photos/250/250" alt="">
+			<p class="text-xs m-1">Here our some of our most recent reviews from our clients who have been using Durraforms!</p>
+			<img class="rounded-full" src="https://picsum.photos/250/250" alt="">
 			<h2 class="font-semibold">Ink Couture</h2>
 			<div class="flex flex-col">
 				<h6 class="text-xs">I can honestly say that there is not one company that</h6>
