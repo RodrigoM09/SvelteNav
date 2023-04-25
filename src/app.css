@@ -9,9 +9,16 @@
 	--tertiary-color: rgb(203, 213, 226);
 }
 
-@font-face {
-	font-family: 'Shree';
-	font-style: normal;
-	font-weight: 400;
-	src: local('Shree Devanagari 714')
+html {
+	box-sizing: border-box;
 }
+
+body {
+	height: 100%;
+	font-family: "Arimo", sans-serif;
+}
+
+/* #yourStory {
+	font-family: "Arima", cursive;
+} */
+
